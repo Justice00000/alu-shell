@@ -1,2 +1,2 @@
 #!/bin/bash
-du | sort -nr
+find . -mindepth 1 -type d | wc -l
